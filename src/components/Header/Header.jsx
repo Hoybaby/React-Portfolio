@@ -21,7 +21,7 @@ function Header() {
                     <Web/>
                     
                 </div>
-                <div className="mobile-menu">
+                <div className="mobile-menu menu-icon">
                     {/* this will make the the icon clickable and open the mobile sidebar */}
                     <GrAppsRounded onClick={() => setIsOpen(!isOpen)}/>
                 </div>

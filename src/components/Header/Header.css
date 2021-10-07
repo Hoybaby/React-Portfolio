@@ -11,5 +11,27 @@
 }
 
 .menu {
-    background-color: blue;
+    background-color: white;
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.menu-icon {
+    font-size: 24px;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+.web-menu {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    font-size: 36px;
+    color: rgb(54, 34, 170);
+    font-weight: 800;
 }
