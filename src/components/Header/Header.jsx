@@ -26,7 +26,8 @@ function Header() {
                     <GrAppsRounded onClick={() => setIsOpen(!isOpen)}/>
                 </div>
                 {/* when is open is true, the sidebar will be open */}
-                {isOpen && <Mobile/>}
+                {/* since i want to close it later from the sidebar, i need to pass the state and function into the mobile component as a prop  */}
+                {isOpen && <Mobile isOpen={isOpen} setIsOpen={setIsOpen}/>}
             </div>
                 
         </div>

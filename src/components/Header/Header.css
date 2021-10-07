@@ -1,0 +1,15 @@
+.header {
+    display: flex;
+    background-color: aquamarine;
+    /* puts space at the extreme end of the components/css limit */
+    justify-content: space-between;
+    flex:1;
+    padding: 12px;
+    position: relative;
+    align-items: center;
+
+}
+
+.menu {
+    background-color: blue;
+}
