@@ -1,12 +1,6 @@
 import React from 'react'
 import './Web.css'
 
-import {FcEditImage} from 'react-icons/fc';
-import {AiOutlineLaptop, AiOutlineUser,AiOutlinePicture} from 'react-icons/ai';
-import {BsFillBriefcaseFill} from 'react-icons/bs';
-
-
-
 function Web() {
     return (
         <div className="web">
@@ -25,7 +19,7 @@ function Web() {
                 <i class="fas fa-briefcase option-icon"></i>Work
                 </a>
             </div>
-            <div className="web-option option-icon">
+            <div className="web-option">
                 <a href="#project">
                 <i class="fas fa-user option-icon"></i>Contact
                 </a>
