@@ -21,9 +21,12 @@ function Header() {
                     <Web/>
                     
                 </div>
-                <div className="mobile-menu menu-icon">
+                <div className="mobile-menu">
+                    <div onClick={() => setIsOpen(!isOpen)}>
+                        <i class="fas fa-bars menu-icon"></i>
+                    </div>
                     {/* this will make the the icon clickable and open the mobile sidebar */}
-                    <GrAppsRounded onClick={() => setIsOpen(!isOpen)}/>
+                    {/* <GrAppsRounded onClick={() => setIsOpen(!isOpen)}/> */}
                 </div>
                 {/* when is open is true, the sidebar will be open */}
                 {/* since i want to close it later from the sidebar, i need to pass the state and function into the mobile component as a prop  */}
