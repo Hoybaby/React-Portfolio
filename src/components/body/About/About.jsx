@@ -1,4 +1,5 @@
 import React from 'react'
+import SocialContact from '../../common/social/SocialContact'
 import './About.css'
 
 
@@ -7,7 +8,7 @@ function About() {
         <div className='about'>
             <div className="about-top">
                 <div className="about-info">
-                    Hello! My name is <br/> Michael Bartek  <br/>
+                    Hello! My name is <br/> <span className="info-name">Michael Bartek</span>  <br/>
                     and I love creating applications with JavaScript!
                 </div>
                 <div className="about-photo">
@@ -16,10 +17,7 @@ function About() {
                     className='picture'/>
                 </div>
             </div>
-            <div className="about-bottom">
-                this is contact buttons
-            </div>
-            
+        <SocialContact/>
         </div>
     )
 }
