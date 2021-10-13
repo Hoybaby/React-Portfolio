@@ -1,0 +1,17 @@
+.social-contact{
+    /* make it go in a row */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.social-icon-div {
+    padding: 6px;
+    cursor: pointer;
+    margin: 6px;
+}
+
+.social-icon {
+    height: 48px;
+}
