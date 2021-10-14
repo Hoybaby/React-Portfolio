@@ -7,8 +7,7 @@ export const ProjectData = [
         tags: ["ReactJs, NodeJS, StyledComponents, JavaScript, CSS"],
         demo: 'https://heuristic-kepler-a0b406.netlify.app/',
         github: 'https://github.com/Hoybaby/React-MovieDB',
-        image: 'reactMovieDB.png'.default
-
+        image: require('../../assets/reactMovieDb.PNG').default
     },
     {
         id: 2,
@@ -17,6 +16,6 @@ export const ProjectData = [
         tags: ["ReactJs, NodeJS, MONGODB, GraphQL, JavaScript,"],
         demo: 'https://elated-engelbart-fcaedd.netlify.app/',
         github: 'https://github.com/Hoybaby/React-Social-App',
-        image: 'reactMovieDB.png'.default
+        image: require('../../assets/react-social-app.png').default
     }
 ]
