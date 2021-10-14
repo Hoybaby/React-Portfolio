@@ -9,10 +9,10 @@ function Projects() {
 
     return (
         <div className='projects'>
-            <label>Projects</label>
+            <label className="section-title">Projects</label>
             <div>
                 {data.map((project) => {
-                    return <ProjectCard/>
+                    return <ProjectCard project={project}/>
                 })}
             </div>
         </div>
