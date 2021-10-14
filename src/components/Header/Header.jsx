@@ -4,7 +4,7 @@ import './Header.css'
 import Mobile from './Mobile/Mobile'
 import Web from './Web/Web'
 
-import {GrAppsRounded} from 'react-icons/gr';
+// import {GrAppsRounded} from 'react-icons/gr';
 
 function Header() {
 

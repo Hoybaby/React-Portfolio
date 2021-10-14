@@ -11,7 +11,7 @@ function SocialContact() {
                 return( 
                 <a href={item.link}>
                     <div className='social-icon-div'>
-                        <img src={item.icon} className='social-icon'/>
+                        <img src={item.icon} className='social-icon' alt="pictures of social icons" />
                     </div>
                 </a>
                 )
