@@ -16,6 +16,6 @@ export const ProjectData = [
         tags: ["ReactJs, NodeJS, MONGODB, GraphQL, JavaScript,"],
         demo: 'https://elated-engelbart-fcaedd.netlify.app/',
         github: 'https://github.com/Hoybaby/React-Social-App',
-        image: require('../../assets/react-social-app.png').default
+        image: require('../../assets/react-social-app.PNG').default
     }
 ]

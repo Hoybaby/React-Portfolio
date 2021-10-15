@@ -10,22 +10,29 @@ function ProjectCard({project}) {
                 <label className='project-title'>{project.title}</label>
                 <div className="project-links">
                     {/* if true then render */}
-                    {project.demo && (
+                {project.demo && (
                     <a class="prjoect-link" href={project.demo}>
                             <div className="link-button">
                                 <BsGlobe/> Demo
                             </div>
                         </a>
-                    )}
-                    {project.github && (
+                )}
+                {project.github && (
                         <a class="prjoect-link" href={project.github}>
                         <div className="link-button">
                             <BsGithub/> Github
                         </div>
                     </a>
-                )}
-                    )}
-                        
+                )}  
+                </div>
+                <p>{project.about}</p>
+                <div className="project-tags">
+                    {project.tags.map((tag)=> {
+                        return (
+                        <label className="tag">
+                            {tag}
+                        </label>)
+                    })}
                 </div>
             </div>
             <img src={project.image} className='project-photo'/>
