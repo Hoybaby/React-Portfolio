@@ -1,9 +1,14 @@
 import React from 'react'
 // will be getting it from skills.jsx
+import './SkillCard.css'
+
 function SkillCard({skill}) {
     return (
-        <div>
-            
+        <div className="skill-card">
+            <div className="skill-icon">
+                {skill.icon}
+            </div>
+              <label className='skill-name'>{skill.name}</label>
         </div>
     )
 }
