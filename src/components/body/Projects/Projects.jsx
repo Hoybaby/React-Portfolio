@@ -2,6 +2,8 @@ import React from 'react'
 import ProjectCard from './ProjectCard';
 import './Projects.css';
 import {ProjectData} from '../../data/projects'
+import Seperator from '../../common/Seperator/Seperator';
+
 
 function Projects() {
 
@@ -9,6 +11,7 @@ function Projects() {
 
     return (
         <div className='projects'>
+            <Seperator  />
             <label className="section-title">Projects</label>
             <div>
                 {data.map((project) => {

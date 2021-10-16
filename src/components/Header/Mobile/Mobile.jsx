@@ -11,22 +11,22 @@ function Mobile({isOpen, setIsOpen}) {
             <div className="mobile-options">
                 <div className="mobile-option">
                     <a href="#project">
-                        <i class="fas fa-pencil-ruler option-icon"></i>Projects
+                        <i className="fas fa-pencil-ruler option-icon"></i>Projects
                     </a>
                 </div>
                 <div className="mobile-option ">
                     <a href="#skills">
-                        <i class="fas fa-laptop-code option-icon"></i>Skills
+                        <i className="fas fa-laptop-code option-icon"></i>Skills
                     </a>
                 </div>
                 <div className="mobile-option">
                     <a href="#work">
-                        <i class="fas fa-briefcase option-icon"></i>Work
+                        <i className="fas fa-briefcase option-icon"></i>Work
                     </a>
                 </div>
                 <div className="mobile-option">
                     <a href="#project">
-                        <i class="fas fa-user option-icon"></i>Contact
+                        <i className="fas fa-user option-icon"></i>Contact
                     </a>
                 </div>
             </div>

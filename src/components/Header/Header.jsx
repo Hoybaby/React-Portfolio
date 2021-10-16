@@ -23,7 +23,7 @@ function Header() {
                 </div>
                 <div className="mobile-menu">
                     <div onClick={() => setIsOpen(!isOpen)}>
-                        <i class="fas fa-bars menu-icon"></i>
+                        <i className="fas fa-bars menu-icon"></i>
                     </div>
                     {/* this will make the the icon clickable and open the mobile sidebar */}
                     {/* <GrAppsRounded onClick={() => setIsOpen(!isOpen)}/> */}
