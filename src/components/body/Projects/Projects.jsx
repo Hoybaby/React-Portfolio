@@ -5,13 +5,14 @@ import {ProjectData} from '../../data/projects'
 import Seperator from '../../common/Seperator/Seperator';
 
 
+
 function Projects() {
 
     const data = ProjectData;
 
     return (
         <div className='projects'>
-            <Seperator  />
+            <Seperator/>
             <label className="section-title">Projects</label>
             <div>
                 {data.map((project) => {
