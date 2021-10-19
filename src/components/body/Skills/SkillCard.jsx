@@ -8,7 +8,7 @@ function SkillCard({skill}) {
             <div className="skill-icon">
                 {skill.icon}
             </div>
-              <label className='skill-name'>{skill.name}</label>
+                <label className='skill-name'>{skill.name}</label>
         </div>
     )
 }
