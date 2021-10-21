@@ -5,7 +5,7 @@ function Web() {
     return (
         <div className="web">
             <div className="web-option">
-                <a href="#project">
+                <a href="#projects">
                 <i className="fas fa-pencil-ruler option-icon"></i>Projects
                 </a>
             </div>
@@ -20,7 +20,7 @@ function Web() {
                 </a>
             </div>
             <div className="web-option">
-                <a href="#project">
+                <a href="#contact">
                 <i className="fas fa-user option-icon"></i>Contact
                 </a>
             </div>

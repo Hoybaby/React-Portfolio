@@ -1,9 +1,10 @@
 import React from 'react'
+import './Footer.css';
 
 function Footer() {
     return (
-        <div>
-            this is a footer component
+        <div className="footer">
+            Made by Michael Bartek. DevIcons was used
         </div>
     )
 }
