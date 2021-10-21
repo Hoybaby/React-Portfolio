@@ -1,5 +1,6 @@
 export const WorkData = [
     {
+        id: 20,
         company: 'U2',
         designation: 'Full Stack Learning Assitant',
         dateJoining: '05-15-2021',
@@ -11,6 +12,7 @@ export const WorkData = [
         `
     },
     {
+        id: 22,
         company: 'Professional Phyiscal Therapy',
         designation: 'Physical Therapy Aide',
         dateJoining: '09-18-18',
