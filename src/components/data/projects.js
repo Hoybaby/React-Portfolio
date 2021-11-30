@@ -17,5 +17,14 @@ export const ProjectData = [
         demo: 'https://elated-engelbart-fcaedd.netlify.app/',
         github: 'https://github.com/Hoybaby/React-Social-App',
         image: require('../../assets/react-social-app.PNG').default
+    },
+    {
+        id: 3,
+        title: "React Memory",
+        about: 'In this application, users can create memories that they would like to share with the world. They do this by completing the form found on the page and submitting which sends it to my MONGODB database. I am currently working on more feature to apply JWToken for authentication.',
+        tags: ["ReactJs", "NodeJS", "MongoDB", "JavaScript", "CSS", "Express", "Material-UI"],
+        demo: 'https://elated-pike-15e317.netlify.app/',
+        github: 'https://github.com/Hoybaby/React-TripMemory',
+        image: require('../../assets/react-memories.PNG').default
     }
 ]

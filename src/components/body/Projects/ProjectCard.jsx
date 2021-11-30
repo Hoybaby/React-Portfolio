@@ -11,14 +11,14 @@ function ProjectCard({project}) {
                 <div className="project-links">
                     {/* if true then render */}
                 {project.demo && (
-                    <a className="prjoect-link" href={project.demo}>
+                    <a className="prjoect-link" href={project.demo} target="_blank" rel="noreferrer">
                             <div className="link-button">
                                 <BsGlobe/> Demo
                             </div>
                         </a>
                 )}
                 {project.github && (
-                        <a className="prjoect-link" href={project.github}>
+                        <a className="prjoect-link" href={project.github} target="_blank" rel="noreferrer">
                         <div className="link-button">
                             <BsGithub/> Github
                         </div>
