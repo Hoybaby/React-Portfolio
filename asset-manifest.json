@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.10e6a39c.chunk.css",
-    "main.js": "/React-Portfolio/static/js/main.0be2d48d.chunk.js",
-    "main.js.map": "/React-Portfolio/static/js/main.0be2d48d.chunk.js.map",
+    "main.js": "/React-Portfolio/static/js/main.febc449a.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.febc449a.chunk.js.map",
     "runtime-main.js": "/React-Portfolio/static/js/runtime-main.97d2bbb2.js",
     "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.97d2bbb2.js.map",
     "static/js/2.52842878.chunk.js": "/React-Portfolio/static/js/2.52842878.chunk.js",
@@ -13,6 +13,7 @@
     "static/media/Michael Bartek Resume Link.pdf": "/React-Portfolio/static/media/Michael Bartek Resume Link.bf189984.pdf",
     "static/media/PPT-logo-2020.png": "/React-Portfolio/static/media/PPT-logo-2020.f0acfbbc.png",
     "static/media/coding.png": "/React-Portfolio/static/media/coding.1e947070.png",
+    "static/media/react-memories.PNG": "/React-Portfolio/static/media/react-memories.aa7b241f.PNG",
     "static/media/react-social-app.PNG": "/React-Portfolio/static/media/react-social-app.d83c1cd5.PNG",
     "static/media/reactMovieDb.PNG": "/React-Portfolio/static/media/reactMovieDb.6cec7c85.PNG",
     "static/media/trilogy-image.png": "/React-Portfolio/static/media/trilogy-image.3a319254.png"
@@ -21,6 +22,6 @@
     "static/js/runtime-main.97d2bbb2.js",
     "static/js/2.52842878.chunk.js",
     "static/css/main.10e6a39c.chunk.css",
-    "static/js/main.0be2d48d.chunk.js"
+    "static/js/main.febc449a.chunk.js"
   ]
 }
