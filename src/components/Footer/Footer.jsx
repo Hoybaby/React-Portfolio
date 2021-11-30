@@ -4,7 +4,7 @@ import './Footer.css';
 function Footer() {
     return (
         <div className="footer">
-            Made by Michael Bartek. DevIcons was used
+            Made by Michael Bartek. DevIcons was used.
         </div>
     )
 }
