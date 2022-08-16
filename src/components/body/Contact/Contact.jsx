@@ -15,7 +15,7 @@ function Contact() {
                     <SocialContact />
                 </div>
                 <div className="download">
-                    <a href={require('../../../assets/Michael Bartek Resume Link.pdf').default} target='#blank'><i class="fa fa-info"></i>Download Resume</a>
+                    <a href={require('../../../assets/Web Developer Resume Michael Bartek.pdf.pdf').default} target='#blank'><i class="fa fa-info"></i>Download Resume</a>
                 </div>
             </div>
         </div>
